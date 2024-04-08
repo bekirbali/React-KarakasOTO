@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="h-[250px] w-full bg-slate-900 text-white flex justify-center">
-      <div className="flex justify-center py-2 px-10 gap-6 w-[80%] mt-10">
+    <div className="lg:h-[250px] w-full bg-slate-900 text-white flex justify-center">
+      <div className="flex flex-col  lg:flex-row  lg:justify-center py-2 px-10 gap-6 w-[80%] mt-10">
         <div className="about flex-1">
           <div>
             <h2 className="font-semibold text-xl border-b-2 py-2 mb-2">
@@ -18,7 +18,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="links flex flex-1 justify-center">
+        <div className="links flex flex-1 lg:justify-center">
           <div>
             <h2 className="font-semibold text-xl border-b-2 py-2 mb-2">
               Linkler
@@ -42,7 +42,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="contact-footer flex flex-1 justify-center">
+        <div className="contact-footer flex flex-1 lg:justify-center">
           <div className="">
             <h2 className="font-semibold text-xl border-b-2 py-2 mb-2">
               İletişim Bilgilerimiz
@@ -52,7 +52,7 @@ const Footer = () => {
             <p>E-posta: karakas@karakasoto.com.tr </p>
           </div>
         </div>
-        <div className="hours-footer flex flex-1 justify-center">
+        <div className="hours-footer flex flex-1 lg:justify-center">
           <div>
             <h2 className="font-semibold text-xl border-b-2 py-2 mb-2">
               Çalışma Saatlerimiz

@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="w-[80%] h-[100vh] flex items-center mx-auto p-2">
-      <div className="flex justify-between items-center gap-4">
+    <div className="w-[80%] lg:h-[100vh] flex items-center mx-auto p-2 border-b-2 border-black lg:border-none">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="left rounded-lg">
           <img className="rounded-full flex-1" src={hakkimizda} alt="" />
         </div>
@@ -22,15 +22,18 @@ const Hero = () => {
               district of Istanbul in 2005 with a closed area of 3,000 m2.
               <br />
               <br />
-              Karakas Automotive, which was established with the accumulation of
-              45 years of experience in the automotive lighting sector, has
-              become one of the leading automotive lighting manufacturers in our
-              country and in our region thanks to the innovative strategies and
-              customer-oriented sales policy it has followed since its
-              establishment.
+              <p className="hidden md:block">
+                {" "}
+                Karakas Automotive, which was established with the accumulation
+                of 45 years of experience in the automotive lighting sector, has
+                become one of the leading automotive lighting manufacturers in
+                our country and in our region thanks to the innovative
+                strategies and customer-oriented sales policy it has followed
+                since its establishment.
+              </p>
             </p>
           </div>
-          <div className="lower flex justify-between mt-10">
+          <div className="lower flex md:mt-10 border-b-2">
             <Link to="/about">
               <button className="bg-slate-900 text-white font-semibold p-2">
                 Hakkımızda

@@ -20,53 +20,28 @@ const BrandCards = () => {
         <div>
           <div className="product-cards flex justify-between gap-2 flex-wrap">
             <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img
-                src={alfaromeo}
-                loading="lazy"
-                className="w-full h-full"
-                alt=""
-              />
+              <img src={alfaromeo} className="w-full h-full" alt="" />
             </div>
             <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img src={audi} loading="lazy" className="w-full h-full" alt="" />
+              <img src={audi} className="w-full h-full" alt="" />
             </div>
             <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img src={bmw} loading="lazy" className="w-full h-full" alt="" />
+              <img src={bmw} className="w-full h-full" alt="" />
             </div>
             <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img
-                src={chevrolet}
-                loading="lazy"
-                className="w-full h-full"
-                alt=""
-              />
+              <img src={chevrolet} className="w-full h-full" alt="" />
             </div>
             <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img src={ford} loading="lazy" className="w-full h-full" alt="" />
+              <img src={ford} className="w-full h-full" alt="" />
             </div>
             <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img
-                src={honda}
-                loading="lazy"
-                className="w-full h-full"
-                alt=""
-              />
+              <img src={honda} className="w-full h-full" alt="" />
             </div>
             <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img
-                src={merco}
-                loading="lazy"
-                className="w-full h-full"
-                alt=""
-              />
+              <img src={merco} className="w-full h-full" alt="" />
             </div>
             <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img
-                src={nissan}
-                loading="lazy"
-                className="w-full h-full"
-                alt=""
-              />
+              <img src={nissan} className="w-full h-full" alt="" />
             </div>
           </div>
         </div>

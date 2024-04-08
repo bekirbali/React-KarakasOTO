@@ -71,7 +71,7 @@ export default function Home() {
         </Swiper>
         <Hero />
         <ProductCards />
-        <Brands />
+        {/* <Brands /> */}
       </div>
     </>
   );
