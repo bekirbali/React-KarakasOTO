@@ -17,8 +17,8 @@ const BrandCards = () => {
           <h3 className="font-bold text-2xl">Karakas Otomotiv Markalar</h3>
           <Link to="/products">Tüm Markaları İncele</Link>
         </div>
-        <div className="text-center bg-red-500">
-          <div className="product-cards flex gap-2 flex-wrap">
+        <div>
+          <div className="product-cards flex gap-4 flex-wrap justify-between">
             <div className="card w-[150px] lg:w-[24%]">
               <img src={alfaromeo} alt="" className="w-full" />
             </div>
