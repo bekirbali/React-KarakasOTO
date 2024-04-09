@@ -10,8 +10,8 @@ const Hero = () => {
           <img className="rounded-full flex-1" src={hakkimizda} alt="" />
         </div>
         <div className="right flex flex-col justify-around w-1/2">
-          <div className="upper">
-            <h2 className="font-bold text-[50px]">
+          <div className="upper flex flex-col gap-4">
+            <h2 className="font-bold text-3xl lg:text-[50px] leading-[52px]">
               KARAKAS OTO YEDEK PARÇA VE SERVİS
             </h2>
             <h3 className="font-bold text-[20px] text-red-500">
@@ -21,19 +21,17 @@ const Hero = () => {
               Karakas Automotive started production in its factory in Silivri
               district of Istanbul in 2005 with a closed area of 3,000 m2.
               <br />
-              <br />
-              <p className="hidden md:block">
-                {" "}
-                Karakas Automotive, which was established with the accumulation
-                of 45 years of experience in the automotive lighting sector, has
-                become one of the leading automotive lighting manufacturers in
-                our country and in our region thanks to the innovative
-                strategies and customer-oriented sales policy it has followed
-                since its establishment.
-              </p>
+            </p>
+            <p className="hidden md:block">
+              Karakas Automotive, which was established with the accumulation of
+              45 years of experience in the automotive lighting sector, has
+              become one of the leading automotive lighting manufacturers in our
+              country and in our region thanks to the innovative strategies and
+              customer-oriented sales policy it has followed since its
+              establishment.
             </p>
           </div>
-          <div className="lower flex md:mt-10 border-b-2">
+          <div className="lower flex md:mt-10">
             <Link to="/about">
               <button className="bg-slate-900 text-white font-semibold p-2">
                 Hakkımızda

@@ -11,37 +11,37 @@ import nissan from "../assets/brands/nissan.webp";
 
 const BrandCards = () => {
   return (
-    <div className="h-[90vh] flex items-center">
-      <div className=" p-2 w-[80%] mx-auto flex flex-col">
+    <div className="flex items-center">
+      <div className="p-2 w-[80%] mx-auto flex flex-col">
         <div className="flex justify-between items-center">
           <h3 className="font-bold text-2xl">Karakas Otomotiv Markalar</h3>
           <Link to="/products">Tüm Markaları İncele</Link>
         </div>
-        <div>
-          <div className="product-cards flex justify-between gap-2 flex-wrap">
-            <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img src={alfaromeo} className="w-full h-full" alt="" />
+        <div className="text-center bg-red-500">
+          <div className="product-cards flex gap-2 flex-wrap">
+            <div className="card w-[150px] lg:w-[24%]">
+              <img src={alfaromeo} alt="" className="w-full" />
             </div>
-            <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img src={audi} className="w-full h-full" alt="" />
+            <div className="card w-[150px] lg:w-[24%]">
+              <img src={audi} alt="" className="w-full" />
             </div>
-            <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img src={bmw} className="w-full h-full" alt="" />
+            <div className="card w-[150px] lg:w-[24%]">
+              <img src={bmw} alt="" className="w-full" />
             </div>
-            <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img src={chevrolet} className="w-full h-full" alt="" />
+            <div className="card w-[150px] lg:w-[24%]">
+              <img src={chevrolet} alt="" className="w-full" />
             </div>
-            <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img src={ford} className="w-full h-full" alt="" />
+            <div className="card w-[150px] lg:w-[24%]">
+              <img src={ford} alt="" className="w-full" />
             </div>
-            <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img src={honda} className="w-full h-full" alt="" />
+            <div className="card w-[150px] lg:w-[24%]">
+              <img src={honda} alt="" className="w-full" />
             </div>
-            <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img src={merco} className="w-full h-full" alt="" />
+            <div className="card w-[150px] lg:w-[24%]">
+              <img src={merco} alt="" className="w-full" />
             </div>
-            <div className="card w-[24%] h-[300px] relative border-2 text-center">
-              <img src={nissan} className="w-full h-full" alt="" />
+            <div className="card w-[150px] lg:w-[24%]">
+              <img src={nissan} alt="" className="w-full" />
             </div>
           </div>
         </div>
