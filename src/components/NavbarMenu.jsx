@@ -37,7 +37,7 @@ export default function NavbarMenu() {
             className="mr-3 h-6 sm:h-9"
             alt="Flowbite React Logo"
           />
-          <span className="self-center whitespace-nowrap text-xl font-semibold">
+          <span className="self-center whitespace-nowrap text-xl font-semibold text-[#181818]">
             Karakas OTO
           </span>
         </Navbar.Brand>
@@ -48,35 +48,35 @@ export default function NavbarMenu() {
             className="text-black text-[17px]"
             href="/"
           >
-            Home
+            Ana Sayfa
           </Navbar.Link>
           <Navbar.Link
             style={{ color: scrolled ? "white" : "" }}
             className="text-black text-[17px]"
             href="about"
           >
-            About
+            Hakkımızda
           </Navbar.Link>
           <Navbar.Link
             style={{ color: scrolled ? "white" : "" }}
             className="text-black text-[17px]"
             href="products"
           >
-            Products
+            Ürün Grubumuz
           </Navbar.Link>
           <Navbar.Link
             style={{ color: scrolled ? "white" : "" }}
             className="text-black text-[17px]"
             href="brands"
           >
-            Brands
+            Markalarımız
           </Navbar.Link>
           <Navbar.Link
             style={{ color: scrolled ? "white" : "" }}
             className="text-black text-[17px]"
             href="contact"
           >
-            Contact
+            İletişim
           </Navbar.Link>
         </Navbar.Collapse>
       </Navbar>

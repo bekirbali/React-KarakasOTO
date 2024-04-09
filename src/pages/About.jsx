@@ -24,52 +24,56 @@ const About = () => {
               className="max-h-[500px] w-full mx-auto"
             />
           </div>
-          <div className="flex-1 flex flex-col gap-4 w-[400px]">
-            <h2 className="text-2xl font-semibold text-center">
-              “Oto yedek parça tedariğinde yılların deneyimi…”
-            </h2>
-            <p>
-              2015 yılında yenilikçi ilkeleriyle kurulan Mars Oto Yedek Parça
-              şirketi, başarılı ve yedek parça konusunda tecrübeli
-              çalışanlarıyla ticari ve binek otomobil yedek parça alanındaki
-              sayılı kuruluşlar arasında yer almakta ve hizmet sektöründe
-              bölgesel lider olma vizyonuyla ilerlemektedir.
-              <br />
-              <br />
-              Hizmet verdiği oto yedek parça alanında, sorumluluklarının
-              bilincinde olan Mars Oto Yedek Parça, kendi sektöründe bulunan
-              kuruluşlara örnek olmaya çalışan bir vizyonla hareket etmektedir.
-              Hizmetlerini her zaman için müşteri memnuniyeti ve güven
-              ilkelerini temel alarak sunmaktadır.
-              <br />
-              <br />
-              Mars Oto Yedek Parça’nın ulaştığı başarının arkasında, müşteri
-              odaklı ve verimliliği merkez alan bir yönetim yaklaşımı vardır. Bu
-              yaklaşım, sadece maddi kazanımlarla değil, bütün toplumun
-              yararlandığı ve yararlanacağı kurumsal şirket bilinciyle iç içe
-              gelişmektedir.
-            </p>
+          <div className="flex-1 ">
+            <div className="flex flex-col gap-4 w-[90%] lg:w-[80%] mx-auto">
+              <h2 className="text-2xl font-semibold text-center">
+                “Oto yedek parça tedariğinde yılların deneyimi…”
+              </h2>
+              <p>
+                2015 yılında yenilikçi ilkeleriyle kurulan Karakas Oto Yedek
+                Parça şirketi, başarılı ve yedek parça konusunda tecrübeli
+                çalışanlarıyla ticari ve binek otomobil yedek parça alanındaki
+                sayılı kuruluşlar arasında yer almakta ve hizmet sektöründe
+                bölgesel lider olma vizyonuyla ilerlemektedir.
+                <br />
+                <br />
+                Hizmet verdiği oto yedek parça alanında, sorumluluklarının
+                bilincinde olan Karakas Oto Yedek Parça, kendi sektöründe
+                bulunan kuruluşlara örnek olmaya çalışan bir vizyonla hareket
+                etmektedir. Hizmetlerini her zaman için müşteri memnuniyeti ve
+                güven ilkelerini temel alarak sunmaktadır.
+                <br />
+                <br />
+                Karakas Oto Yedek Parça’nın ulaştığı başarının arkasında,
+                müşteri odaklı ve verimliliği merkez alan bir yönetim yaklaşımı
+                vardır. Bu yaklaşım, sadece maddi kazanımlarla değil, bütün
+                toplumun yararlandığı ve yararlanacağı kurumsal şirket
+                bilinciyle iç içe gelişmektedir.
+              </p>
+            </div>
           </div>
         </div>
         <div className="flex flex-col-reverse lg:flex-row w-[80%] items-center mx-auto gap-2 my-10">
-          <div className="flex-1 flex flex-col gap-4">
-            <h2 className="text-2xl font-semibold">
-              KALİTE YÖNETİM POLİTİKAMIZ
-            </h2>
-            <p>
-              Mars Otomotiv’de tedarikçisi olduğumuz müşterilerimize çalışma
-              alanımızın her aşamasında yüksek kalite ve standartlarda hizmet
-              verme prensibiyle ilkelerimizi oluşturmaktayız. Alanında uzman
-              çalışanlarımız, uluslararası standartlara uygunluk, müşteri
-              deneyimimiz, büyüme kapasitemiz ve çalışma performansımızla
-              birlikte kalite standartlarımız düzenli kontroller ve titiz
-              çalışma ilkeleriyle garanti altındadır.
-              <br />
-              <br />
-              Yasal mevzuatlar içerisinde oluşturduğumuz kalite yönetimindeki
-              hedeflerimize, sistemimizin her aşamasını iyileştirerek
-              ulaşacağımızı taahhüt ederiz.
-            </p>
+          <div className="flex-1 ">
+            <div className="flex flex-col gap-4 w-[90%] lg:w-[80%] mx-auto">
+              <h2 className="text-2xl font-semibold">
+                KALİTE YÖNETİM POLİTİKAMIZ
+              </h2>
+              <p>
+                Karakas Otomotiv’de tedarikçisi olduğumuz müşterilerimize
+                çalışma alanımızın her aşamasında yüksek kalite ve standartlarda
+                hizmet verme prensibiyle ilkelerimizi oluşturmaktayız. Alanında
+                uzman çalışanlarımız, uluslararası standartlara uygunluk,
+                müşteri deneyimimiz, büyüme kapasitemiz ve çalışma
+                performansımızla birlikte kalite standartlarımız düzenli
+                kontroller ve titiz çalışma ilkeleriyle garanti altındadır.
+                <br />
+                <br />
+                Yasal mevzuatlar içerisinde oluşturduğumuz kalite yönetimindeki
+                hedeflerimize, sistemimizin her aşamasını iyileştirerek
+                ulaşacağımızı taahhüt ederiz.
+              </p>
+            </div>
           </div>
           <div className="w-full flex-1 max-h-[500px] text-center">
             <img src={kalite} alt="" className="max-h-[500px] mx-auto " />
