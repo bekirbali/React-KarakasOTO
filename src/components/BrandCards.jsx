@@ -18,29 +18,29 @@ const BrandCards = () => {
           <Link to="/products">Tüm Markaları İncele</Link>
         </div>
         <div>
-          <div className="product-cards flex gap-4 flex-wrap justify-between">
-            <div className="card w-[150px] lg:w-[24%]">
+          <div className="product-cards flex lg:gap-4 flex-wrap justify-between">
+            <div className="card w-[50%] md:w-[50%] lg:w-[25%] h-[200px] max-h-[200px] lg:h-[300px] relative border-2 text-center">
               <img src={alfaromeo} alt="" className="w-full" />
             </div>
-            <div className="card w-[150px] lg:w-[24%]">
+            <div className="card w-[50%] md:w-[50%] lg:w-[25%] h-[200px] max-h-[200px] lg:h-[300px] relative border-2 text-center">
               <img src={audi} alt="" className="w-full" />
             </div>
-            <div className="card w-[150px] lg:w-[24%]">
+            <div className="card w-[50%] md:w-[50%] lg:w-[25%] h-[200px] max-h-[200px] lg:h-[300px] relative border-2 text-center">
               <img src={bmw} alt="" className="w-full" />
             </div>
-            <div className="card w-[150px] lg:w-[24%]">
+            <div className="card w-[50%] md:w-[50%] lg:w-[25%] h-[200px] max-h-[200px] lg:h-[300px] relative border-2 text-center">
               <img src={chevrolet} alt="" className="w-full" />
             </div>
-            <div className="card w-[150px] lg:w-[24%]">
+            <div className="card w-[50%] md:w-[50%] lg:w-[25%] h-[200px] max-h-[200px] lg:h-[300px] relative border-2 text-center">
               <img src={ford} alt="" className="w-full" />
             </div>
-            <div className="card w-[150px] lg:w-[24%]">
+            <div className="card w-[50%] md:w-[50%] lg:w-[25%] h-[200px] max-h-[200px] lg:h-[300px] relative border-2 text-center">
               <img src={honda} alt="" className="w-full" />
             </div>
-            <div className="card w-[150px] lg:w-[24%]">
+            <div className="card w-[50%] md:w-[50%] lg:w-[25%] h-[200px] max-h-[200px] lg:h-[300px] relative border-2 text-center">
               <img src={merco} alt="" className="w-full" />
             </div>
-            <div className="card w-[150px] lg:w-[24%]">
+            <div className="card w-[50%] md:w-[50%] lg:w-[25%] h-[200px] max-h-[200px] lg:h-[300px] relative border-2 text-center">
               <img src={nissan} alt="" className="w-full" />
             </div>
           </div>

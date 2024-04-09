@@ -6,12 +6,16 @@ const Hero = () => {
   return (
     <div className="w-[80%] lg:h-[100vh] flex items-center mx-auto p-2 border-b-2 border-black lg:border-none">
       <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-        <div className="left rounded-lg">
-          <img className="rounded-full flex-1" src={hakkimizda} alt="" />
+        <div className="left">
+          <img
+            className="rounded-md md:rounded-full flex-1"
+            src={hakkimizda}
+            alt=""
+          />
         </div>
-        <div className="right flex flex-col justify-around w-1/2">
+        <div className="right flex flex-col justify-around w-full md:w-1/2">
           <div className="upper flex flex-col gap-4">
-            <h2 className="font-bold text-3xl lg:text-[50px] leading-[52px]">
+            <h2 className="font-bold text-3xl text-justify lg:text-[50px] leading-[52px]">
               KARAKAS OTO YEDEK PARÇA VE SERVİS
             </h2>
             <h3 className="font-bold text-[20px] text-red-500">
