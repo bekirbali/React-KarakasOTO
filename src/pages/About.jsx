@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="about ">
       <NavbarMenu />
-      <div className="header-content relative h-[400px]">
+      <div className="header-content relative h-[400px] ">
         <img src={mazda} className="w-full h-full absolute -z-10 " alt="" />
         <h1 className="text-[60px] font-semibold text-center text-white absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] hover:cursor-default">
           HAKKIMIZDA
@@ -16,7 +16,7 @@ const About = () => {
         <div className="absolute bg-[#00000088] w-full h-full backdrop-blur-md"></div>
       </div>
       <div className="flex flex-col gap-8">
-        <div className="flex flex-col lg:flex-row w-[80%] items-center mx-auto gap-2 my-10">
+        <div className="flex flex-col lg:flex-row w-[80%] items-center mx-auto gap-2 my-10 overflow-x-hidden">
           <div className="w-[500px] max-w-[600px] flex-1 max-h-[500px] text-center">
             <img
               src={hakkimizda}

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="w-[80%] lg:h-[100vh] flex items-center mx-auto p-2 border-b-2 border-black lg:border-none">
+    <div className="w-[80%] lg:h-[100vh] flex items-center mx-auto p-2 border-b-2 border-black lg:border-none pb-4 mb-4">
       <div className="flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="left">
           <img

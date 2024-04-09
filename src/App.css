@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: sans-serif;
+}
+
 body {
   background: #f1f1f1;
 }
@@ -58,10 +62,34 @@ a:hover {
 }
 
 .about {
-  font-family: sans-serif;
   color: #71747a;
 }
 
 .about h2 {
   color: #000;
+}
+
+.contact-page {
+  font-family: sans-serif;
+  color: #71747a;
+}
+
+.contact-page h1,
+h2 {
+  color: #000;
+}
+
+.contact-page h1 {
+  border-bottom: 1px solid rgba(41, 41, 41, 0.61);
+  position: relative;
+  padding-bottom: 2px;
+  margin-bottom: 0.5rem;
+}
+.contact-page h1::after {
+  content: "";
+  width: 120px;
+  border-bottom: 3px solid red;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
 }
