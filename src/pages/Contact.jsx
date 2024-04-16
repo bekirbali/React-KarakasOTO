@@ -6,13 +6,13 @@ const Contact = () => {
     <div>
       <NavbarMenu />
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12043.384487507119!2d28.9450106!3d41.0067411!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf2297e328b333c3d!2sKaraka%C5%9Flar%20Otomotiv!5e0!3m2!1str!2suk!4v1671223632271!5m2!1str!2suk"
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-        title="map"
-        width={"100%"}
-        height={"450"}
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.804141421173!2d28.994525776622158!3d41.11696837133545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab43504856475%3A0xbbce63aceb64359!2zQXlhemHEn2EsIEt1cnR5b2x1IFNrLiBObzoxMiwgMzQzOTYgU2FyxLF5ZXIvxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1713195305732!5m2!1str!2str"
+        width="100%"
+        height="450"
         style={{ border: 0 }}
+        loading="lazy"
+        title="map"
+        referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
       <div className="contact-page flex flex-col md:flex-row justify-around gap-10 mt-10 px-5">
         <div className="contact flex flex-col">
