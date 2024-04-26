@@ -15,9 +15,6 @@ const Products = () => {
       <NavbarMenu />
       <div className="flex lg:items-center mt-10">
         <div className=" p-2 w-[80%] mx-auto flex flex-col">
-          <div className="flex justify-between items-center">
-            <h2>Karakas Otomotiv Ürünleri</h2>
-          </div>
           <div>
             <h3 className="font-bold text-md lg:text-2xl">Ürün Gruplarımız</h3>
             <div className="product-cards flex justify-between flex-wrap">

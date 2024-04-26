@@ -13,8 +13,7 @@ const BrandCards = () => {
   return (
     <div className="flex items-center my-20">
       <div className="p-2 w-[80%] mx-auto flex flex-col">
-        <div className="flex justify-between items-center">
-          <h3 className="font-bold text-2xl">Karakas Otomotiv Markalar</h3>
+        <div className="flex justify-end items-center">
           <Link to="/products">Tüm Markaları İncele</Link>
         </div>
         <div>

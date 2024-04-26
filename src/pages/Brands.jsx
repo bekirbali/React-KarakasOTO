@@ -13,7 +13,7 @@ const Brands = () => {
   return (
     <div>
       <NavbarMenu />
-      <div className=" flex items-center">
+      <div className=" flex items-center mt-5">
         <div className=" p-2 w-[80%] mx-auto flex flex-col items-center">
           <div className="product-cards flex justify-center gap-2 flex-wrap">
             <div className="card relative border-2 text-center">

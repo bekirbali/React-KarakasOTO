@@ -17,7 +17,7 @@ const Contact = () => {
       <div className="contact-page flex flex-col md:flex-row justify-around gap-10 mt-10 px-5">
         <div className="contact flex flex-col">
           <h1 className="font-bold text-3xl">
-            KARAKAS OTOMOTİV SAN. ve TİC. A.Ş.
+            KARAKAŞ TOPTAN OTO YEDEK PARÇA
           </h1>
           <h2 className="font-semibold text-xl">İletişim</h2>
           <p>

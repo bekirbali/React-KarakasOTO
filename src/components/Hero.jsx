@@ -15,7 +15,7 @@ const Hero = () => {
         </div>
         <div className="right flex flex-col justify-around w-full md:w-1/2">
           <div className="upper flex flex-col gap-4">
-            <h2 className="font-bold text-3xl text-justify lg:text-[50px] leading-[52px]">
+            <h2 className="font-bold text-3xl  lg:text-[50px] leading-[52px]">
               KARAKAS OTO YEDEK PARÇA VE SERVİS
             </h2>
             <h3 className="font-bold text-[20px] text-red-500">
@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
           <div className="lower flex md:mt-10">
             <Link to="/about">
-              <button className="bg-slate-900 text-white font-semibold p-2">
+              <button className="bg-slate-900 text-white font-semibold p-2 rounded">
                 Hakkımızda
               </button>
             </Link>
