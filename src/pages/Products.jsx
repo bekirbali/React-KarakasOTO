@@ -12,7 +12,9 @@ import suspansiyon from "../assets/products/suspansiyon.jpg";
 const Products = () => {
   return (
     <div>
-      <NavbarMenu />
+      <div className="bg-[#757d75]">
+        <NavbarMenu />
+      </div>
       <div className="flex lg:items-center mt-10">
         <div className=" p-2 w-[80%] mx-auto flex flex-col">
           <div className="flex justify-between items-center">

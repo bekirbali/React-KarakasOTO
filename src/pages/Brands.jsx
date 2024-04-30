@@ -12,7 +12,9 @@ import nissan from "../assets/brands/nissan.webp";
 const Brands = () => {
   return (
     <div>
-      <NavbarMenu />
+      <div className="bg-[#757d75]">
+        <NavbarMenu />
+      </div>
       <div className=" flex items-center">
         <div className=" p-2 w-[80%] mx-auto flex flex-col items-center">
           <div className="product-cards flex justify-center gap-2 flex-wrap">

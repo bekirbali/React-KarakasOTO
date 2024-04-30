@@ -18,7 +18,7 @@ const Hero = () => {
             <h2 className="font-bold text-3xl text-justify lg:text-[50px] leading-[52px]">
               KARAKAS OTO YEDEK PARÇA VE SERVİS
             </h2>
-            <h3 className="font-bold text-[20px] text-red-500">
+            <h3 className="font-bold text-[20px] text-[#800020]">
               “Oto yedek parça tedariğinde yılların deneyimi…”
             </h3>
             <p>
@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
           <div className="lower flex md:mt-10">
             <Link to="/about">
-              <button className="bg-slate-900 text-white font-semibold p-2">
+              <button className="bg-[#800020] text-white font-semibold p-2">
                 Hakkımızda
               </button>
             </Link>

@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className=" w-full bg-slate-900 text-white flex justify-center py-4 mt-20">
+    <div className=" w-full bg-[#757d75] text-white flex justify-center py-4 mt-20">
       <div className="flex flex-col  lg:flex-row  lg:justify-center py-2 px-10 gap-6 w-[80%] ">
         <div className="about-footer flex-1">
           <div>
-            <h2 className="font-semibold text-xl border-b-2 py-2 mb-2 text-white">
-              KARAKAS OTOMOTİV
+            <h2 className="font-semibold text-xl border-b-2 border-[#800020] py-2 mb-2 text-[#800020]">
+              Karakas Otomativ
             </h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <div className="links flex flex-1 lg:justify-center">
           <div>
-            <h2 className="font-semibold text-xl border-b-2 py-2 mb-2 text-white">
+            <h2 className="font-semibold text-xl border-b-2 border-[#800020] py-2 mb-2 text-[#800020]">
               Linkler
             </h2>
             <ul>
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
         <div className="contact-footer flex flex-1 lg:justify-center">
           <div className="">
-            <h2 className="font-semibold text-xl border-b-2 py-2 mb-2 text-white">
+            <h2 className="font-semibold text-xl border-b-2 border-[#800020] py-2 mb-2 text-[#800020]">
               İletişim Bilgilerimiz
             </h2>
             <p>Adres: İstanbul / Türkiye</p>
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
         <div className="hours-footer flex flex-1 lg:justify-center">
           <div>
-            <h2 className="font-semibold text-xl border-b-2 py-2 mb-2 text-white">
+            <h2 className="font-semibold text-xl border-b-2 border-[#800020] py-2 mb-2 text-[#800020]">
               Çalışma Saatlerimiz
             </h2>
             <p>Hafta içi: 09:00-18:30</p>

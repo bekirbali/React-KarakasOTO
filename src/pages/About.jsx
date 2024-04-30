@@ -6,8 +6,10 @@ import mazda from "../assets/yandanMazda.jpg";
 
 const About = () => {
   return (
-    <div className="about ">
-      <NavbarMenu />
+    <div className="about">
+      <div className="bg-[#757d75]">
+        <NavbarMenu />
+      </div>
       <div className="header-content relative h-[400px] ">
         <img src={mazda} className="w-full h-full absolute -z-10 " alt="" />
         <h1 className="text-[60px] font-semibold text-center text-white absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] hover:cursor-default">

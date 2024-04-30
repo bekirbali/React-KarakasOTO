@@ -38,9 +38,7 @@ export default function NavbarMenu() {
             alt="Flowbite React Logo"
           />
           <span
-            className={`self-center whitespace-nowrap text-xl font-semibold ${
-              scrolled ? "text-white" : "text-[#181818]"
-            } `}
+            className={`self-center whitespace-nowrap text-xl font-semibold text-[#F7CA18]`}
           >
             Karakas OTO
           </span>
@@ -48,51 +46,51 @@ export default function NavbarMenu() {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Navbar.Link
-            style={{ color: scrolled ? "white" : "" }}
-            className="text-black text-[17px] flex items-center h-full"
+            style={{ color: scrolled ? "#F7CA18" : "" }}
+            className="text-[#F7CA18] text-[17px] flex items-center h-full"
             href="/"
           >
             Ana Sayfa
           </Navbar.Link>
           <Navbar.Link
-            style={{ color: scrolled ? "white" : "" }}
-            className="text-black text-[17px] flex items-center h-full"
+            style={{ color: scrolled ? "#F7CA18" : "" }}
+            className="text-[#F7CA18] text-[17px] flex items-center h-full"
             href="about"
           >
             Hakkımızda
           </Navbar.Link>
           <Navbar.Link
-            style={{ color: scrolled ? "white" : "" }}
-            className="text-black text-[17px] flex items-center h-full"
+            style={{ color: scrolled ? "#F7CA18" : "" }}
+            className="text-[#F7CA18] text-[17px] flex items-center h-full"
             href="products"
           >
             Ürün Grubumuz
           </Navbar.Link>
           <Navbar.Link
-            style={{ color: scrolled ? "white" : "" }}
-            className="text-black text-[17px] flex items-center h-full"
+            style={{ color: scrolled ? "#F7CA18" : "" }}
+            className="text-[#F7CA18] text-[17px] flex items-center h-full"
             href="brands"
           >
             Markalarımız
           </Navbar.Link>
           <Navbar.Link
-            style={{ color: scrolled ? "white" : "" }}
-            className="text-black text-[17px] flex items-center h-full"
+            style={{ color: scrolled ? "#F7CA18" : "" }}
+            className="text-[#F7CA18] text-[17px] flex items-center h-full"
             href="contact"
           >
             İletişim
           </Navbar.Link>
           <Navbar.Link
-            style={{ color: scrolled ? "white" : "" }}
-            className="text-black text-[17px] flex items-center h-full"
+            style={{ color: scrolled ? "#F7CA18" : "" }}
+            className="text-[#F7CA18] text-[17px] flex items-center h-full"
             href="contact"
           >
             Plasiyer Girişi
           </Navbar.Link>
           <Navbar.Link
-            style={{ color: scrolled ? "white" : "" }}
-            className="text-black text-[17px] !border-2 border-[#181818] !rounded-md !px-3 !py-1 hover:!bg-black hover:!text-white transition-colors"
-            href="contact"
+            style={{ color: scrolled ? "#F7CA18" : "" }}
+            className="text-[#F7CA18] text-[17px] !border-2 border-[#F7CA18] !rounded-md !px-3 !py-1 hover:!bg-[#F7CA18] hover:!text-black transition-colors"
+            href="https://www3.eryaz.net/publish/b2b/karakas/b2b.html"
           >
             B2B İndir
           </Navbar.Link>

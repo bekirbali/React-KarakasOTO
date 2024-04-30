@@ -4,6 +4,7 @@
 
 * {
   font-family: sans-serif;
+  --tw-ring-color: none !important;
 }
 
 body {
@@ -11,13 +12,12 @@ body {
 }
 
 a:hover {
-  color: #acacac !important;
+  color: #ffec3f !important;
 }
 
 .home {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
-  color: #000;
   margin: 0;
   padding: 0;
   max-height: 25%;
@@ -41,42 +41,9 @@ a:hover {
   margin: auto;
 }
 
-.contact p {
-  font-size: 20px;
-  color: #000;
-}
-
-.contact span {
-  font-weight: 600;
-  text-decoration: underline;
-}
-
-.hours p {
-  font-size: 20px;
-  color: #000;
-}
-
-.hours span {
-  font-weight: 600;
-  text-decoration: underline;
-}
-
-.about {
-  color: #71747a;
-}
-
-.about h2 {
-  color: #000;
-}
-
 .contact-page {
   font-family: sans-serif;
   color: #71747a;
-}
-
-.contact-page h1,
-h2 {
-  color: #000;
 }
 
 .contact-page h1 {
@@ -84,6 +51,7 @@ h2 {
   position: relative;
   padding-bottom: 2px;
   margin-bottom: 0.5rem;
+  color: #333e48;
 }
 .contact-page h1::after {
   content: "";
@@ -92,4 +60,30 @@ h2 {
   position: absolute;
   bottom: -1px;
   left: 0;
+}
+
+.contact-page span {
+  border-bottom: 1px solid rgba(41, 41, 41, 0.61);
+  color: #333e48;
+}
+
+.contact {
+  font-family: "open sans", sans-serif;
+  color: #333e48;
+}
+
+.contact span {
+  font-weight: 600;
+  min-width: 110px;
+  display: inline-block;
+}
+
+.hours span {
+  min-width: 135px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.about {
+  color: #71747a;
 }

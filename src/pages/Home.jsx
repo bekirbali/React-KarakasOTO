@@ -11,9 +11,9 @@ import "swiper/css/pagination";
 // import required modules
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
-import mazda1 from "../assets/mazda.jpg";
-import mazda2 from "../assets/maviMazda.jpg";
 import mazda3 from "../assets/yandanMazda.jpg";
+import mainSlider1 from "../assets/mainSlider1.jpg";
+import mainSlider2 from "../assets/mainSlider2.jpg";
 import ProductCards from "../components/ProductCards";
 import NavbarMenu from "../components/NavbarMenu";
 import Hero from "../components/Hero";
@@ -43,7 +43,7 @@ export default function Home() {
     <>
       <div
         className={`fixed top-0 w-full z-[100] ${
-          scrolled ? "bg-black" : "bg-transparent"
+          scrolled ? "bg-[#757d75]" : "bg-transparent"
         } transition-all duration-300 ease-in-out`}
       >
         <NavbarMenu />
@@ -60,13 +60,13 @@ export default function Home() {
           className="mySwiper h-[100vh]"
         >
           <SwiperSlide>
-            <img src={mazda3} className="w-full" alt="" />
+            <img className="w-full" src={mainSlider1} alt="arkadan araba" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={mazda1} alt="" />
+            <img className="w-full" src={mainSlider2} alt="yan araba" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={mazda2} alt="" />
+            <img className="w-full" src={mazda3} alt="mazda" />
           </SwiperSlide>
         </Swiper>
         <Hero />
