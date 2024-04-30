@@ -91,6 +91,7 @@ export default function NavbarMenu() {
             style={{ color: scrolled ? "#F7CA18" : "" }}
             className="text-[#F7CA18] text-[17px] !border-2 border-[#F7CA18] !rounded-md !px-3 !py-1 hover:!bg-[#F7CA18] hover:!text-black transition-colors"
             href="https://www3.eryaz.net/publish/b2b/karakas/b2b.html"
+            target="_blank"
           >
             B2B İndir
           </Navbar.Link>

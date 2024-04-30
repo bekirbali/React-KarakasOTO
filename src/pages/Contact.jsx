@@ -17,10 +17,8 @@ const Contact = () => {
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
       <div className="contact-page flex flex-col md:flex-row justify-around gap-10 mt-10 px-5">
-        <div className="contact flex flex-col flex-1 gap-4">
-          <h1 className="font-semibold text-[24px]">
-            KARAKAS OTOMOTİV SAN. ve TİC. A.Ş.
-          </h1>
+        <div className="contact flex flex-col">
+          <h1 className="font-bold text-3xl">KARAKAŞ TOPTAN OTO YEDEK PARÇA</h1>
           <div className="w-[80%]">
             <p className="">
               KARAKAŞ TOPTAN OTO YEDEK PARÇA TURZ.İNŞ.SAN.TİC.LTD.ŞTİ. Ayazağa

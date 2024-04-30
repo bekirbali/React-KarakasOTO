@@ -13,8 +13,7 @@ const ProductCards = () => {
   return (
     <div className="flex lg:items-center mb-20">
       <div className=" p-2 w-[80%] mx-auto flex flex-col">
-        <div className="flex justify-between items-center">
-          <h2>Karakas Otomotiv Ürünleri</h2>
+        <div className="flex justify-end items-center">
           <Link to="/products">Tüm Ürünleri İncele</Link>
         </div>
         <div>

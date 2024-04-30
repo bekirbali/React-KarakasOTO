@@ -7,8 +7,8 @@ const Footer = () => {
       <div className="flex flex-col  lg:flex-row  lg:justify-center py-2 px-10 gap-6 w-[80%] ">
         <div className="about-footer flex-1">
           <div>
-            <h2 className="font-semibold text-xl border-b-2 border-[#800020] py-2 mb-2 text-[#800020]">
-              Karakas Otomativ
+            <h2 className="font-semibold text-xl border-b-2 py-2 mb-2 text-white">
+              KARAKAŞ TOPTAN OTO YEDEK PARÇA
             </h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
