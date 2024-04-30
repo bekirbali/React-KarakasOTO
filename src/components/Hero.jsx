@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
           <div className="lower flex md:mt-10">
             <Link to="/about">
-              <button className="bg-[#800020] text-white font-semibold p-2">
+              <button className="bg-[#800020] text-white font-semibold p-2 rounded">
                 Hakkımızda
               </button>
             </Link>
