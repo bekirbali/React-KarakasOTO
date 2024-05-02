@@ -1,6 +1,7 @@
 import React from "react";
 import NavbarMenu from "../components/NavbarMenu";
 import hakkimizda from "../assets/hakkimizda.webp";
+import carVector from "../assets/carVector.jpg";
 import kalite from "../assets/kalite.webp";
 import mazda from "../assets/yandanMazda.jpg";
 
@@ -21,7 +22,7 @@ const About = () => {
         <div className="flex flex-col lg:flex-row w-[80%] items-center mx-auto gap-2 my-10 overflow-x-hidden">
           <div className="w-[500px] max-w-[600px] flex-1 max-h-[500px] text-center">
             <img
-              src={hakkimizda}
+              src={carVector}
               alt=""
               className="max-h-[500px] w-full mx-auto"
             />
