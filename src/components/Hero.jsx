@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="left">
           <img
-            className="rounded-md md:rounded-full flex-1"
+            className="rounded-md md:rounded-full flex-1 w-[600px] h-[600px] md:w-[600px] md:h-[600px] object-cover"
             src={carVector}
             alt=""
           />
