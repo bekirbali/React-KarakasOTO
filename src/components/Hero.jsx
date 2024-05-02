@@ -1,5 +1,6 @@
 import React from "react";
 import hakkimizda from "../assets/hakkimizda.webp";
+import carVector from "../assets/carVector.jpg";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -9,7 +10,7 @@ const Hero = () => {
         <div className="left">
           <img
             className="rounded-md md:rounded-full flex-1"
-            src={hakkimizda}
+            src={carVector}
             alt=""
           />
         </div>

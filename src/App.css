@@ -88,3 +88,17 @@ a:hover {
 .about {
   color: #71747a;
 }
+
+.brandsSwiper {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.brandsSwiper .swiper-slide {
+  background: rgb(255, 255, 255) !important;
+}
+
+.brandsSwiper .swiper-slide img {
+  background: rgb(255, 255, 255) !important;
+}
