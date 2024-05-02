@@ -70,7 +70,7 @@ export default function Home() {
           </SwiperSlide>
         </Swiper>
         <Hero />
-        <ProductCards />
+        {/* <ProductCards /> */}
         <Brands />
       </div>
     </>
