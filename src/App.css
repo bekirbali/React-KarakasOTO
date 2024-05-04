@@ -102,3 +102,13 @@ a:hover {
 .brandsSwiper .swiper-slide img {
   background: rgb(255, 255, 255) !important;
 }
+
+.brandsSwiper .swiper-slide img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+/* Üzerine gelindiğinde normal renge dön */
+.brandsSwiper .swiper-slide img:hover {
+  filter: grayscale(0%);
+}

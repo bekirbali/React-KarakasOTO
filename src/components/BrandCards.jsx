@@ -26,9 +26,9 @@ const BrandCards = () => {
       <div className="p-2 w-[80%] mx-auto flex flex-col">
         <Swiper
           // navigation={true}
-          pagination={{
-            clickable: true,
-          }}
+          // pagination={{
+          //   clickable: true,
+          // }}
           loop={true}
           modules={[Navigation, Pagination, Autoplay]}
           slidesPerView={3}
