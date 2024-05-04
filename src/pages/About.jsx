@@ -8,7 +8,7 @@ import mazda from "../assets/yandanMazda.jpg";
 const About = () => {
   return (
     <div className="about">
-      <div className="bg-[#757d75]">
+      <div className="bg-[#757d75] about-navbar">
         <NavbarMenu />
       </div>
       <div className="header-content relative h-[400px] ">

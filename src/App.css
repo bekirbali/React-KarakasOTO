@@ -112,3 +112,15 @@ a:hover {
 .brandsSwiper .swiper-slide img:hover {
   filter: grayscale(0%);
 }
+
+.home-navbar a {
+  color: #f7ca18 !important;
+}
+
+.about-navbar a {
+  color: white !important;
+}
+
+.contact-navbar a {
+  color: white !important;
+}

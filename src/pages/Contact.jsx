@@ -4,7 +4,7 @@ import NavbarMenu from "../components/NavbarMenu";
 const Contact = () => {
   return (
     <div>
-      <div className="bg-[#757d75]">
+      <div className="bg-[#757d75] contact-navbar">
         <NavbarMenu />
       </div>
       <iframe

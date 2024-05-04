@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <>
       <div
-        className={`fixed top-0 w-full z-[100] ${
+        className={`home-navbar fixed top-0 w-full z-[100] ${
           scrolled ? "bg-[#757d75]" : "bg-transparent"
         } transition-all duration-300 ease-in-out`}
       >
