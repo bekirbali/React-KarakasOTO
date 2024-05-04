@@ -83,7 +83,7 @@ export default function NavbarMenu() {
           <Navbar.Link
             style={{ color: scrolled ? "#F7CA18" : "" }}
             className="text-[#F7CA18] text-[17px] flex items-center h-full"
-            href="contact"
+            href="https://b2b.karakasoto.com/Default.aspx"
           >
             Plasiyer Girişi
           </Navbar.Link>
