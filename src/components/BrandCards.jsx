@@ -24,11 +24,6 @@ const BrandCards = () => {
   return (
     <div className="flex items-center my-20 h-[333px]">
       <div className="p-2 w-[80%] mx-auto flex flex-col">
-        <div className="flex justify-end items-center">
-          <Link to="/products" className="hover:!text-[#800020]">
-            Tüm Markaları İncele
-          </Link>
-        </div>
         <Swiper
           // navigation={true}
           pagination={{

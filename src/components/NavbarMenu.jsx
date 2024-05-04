@@ -66,13 +66,13 @@ export default function NavbarMenu() {
           >
             Ürün Grubumuz
           </Navbar.Link> */}
-          <Navbar.Link
+          {/* <Navbar.Link
             style={{ color: scrolled ? "#F7CA18" : "" }}
             className="text-[#F7CA18] text-[17px] flex items-center h-full"
             href="brands"
           >
             Markalarımız
-          </Navbar.Link>
+          </Navbar.Link> */}
           <Navbar.Link
             style={{ color: scrolled ? "#F7CA18" : "" }}
             className="text-[#F7CA18] text-[17px] flex items-center h-full"
