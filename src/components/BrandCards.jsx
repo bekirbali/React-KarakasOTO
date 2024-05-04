@@ -22,7 +22,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 const BrandCards = () => {
   return (
-    <div className="flex items-center my-20 h-[333px]">
+    <div className="flex items-center my-20 h-[333px] bg-white border-b-2 border-t-2 border-slate-800">
       <div className="p-2 w-[80%] mx-auto flex flex-col">
         <Swiper
           // navigation={true}
@@ -32,6 +32,9 @@ const BrandCards = () => {
           loop={true}
           modules={[Navigation, Pagination, Autoplay]}
           slidesPerView={3}
+          autoplay={{
+            delay: 2500,
+          }}
           // centeredSlides={true}
           // spaceBetween={30}
           // padding={50}
