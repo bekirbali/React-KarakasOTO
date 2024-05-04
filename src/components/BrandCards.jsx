@@ -8,6 +8,8 @@ import ford from "../assets/brands/ford.webp";
 import honda from "../assets/brands/honda.webp";
 import merco from "../assets/brands/merco.webp";
 import nissan from "../assets/brands/nissan.webp";
+import mainSlider1 from "../assets/mainSlider1.jpg";
+import mainSlider2 from "../assets/mainSlider2.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../App.css";
@@ -36,7 +38,7 @@ const BrandCards = () => {
             delay: 2500,
           }}
           // centeredSlides={true}
-          // spaceBetween={30}
+          spaceBetween={30}
           // padding={50}
           className="brandsSwiper h-[100vh]"
         >
