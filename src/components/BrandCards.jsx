@@ -20,7 +20,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // import required modules
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
 
 const BrandCards = () => {
   return (
@@ -32,14 +32,11 @@ const BrandCards = () => {
           //   clickable: true,
           // }}
           loop={true}
-          modules={[Navigation, Pagination, Autoplay]}
+          modules={[Navigation, Pagination, Autoplay, EffectFade]}
           slidesPerView={3}
           autoplay={{
             delay: 2500,
           }}
-          // centeredSlides={true}
-          spaceBetween={30}
-          // padding={50}
           className="brandsSwiper h-[100vh]"
         >
           <SwiperSlide>
