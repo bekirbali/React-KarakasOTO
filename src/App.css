@@ -117,3 +117,15 @@ a:hover {
 .contact-navbar a {
   color: white;
 }
+
+.contact-page a {
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-page a:hover {
+  opacity: 0.8;
+}
+
+.contact-info a:hover {
+  color: rgb(0, 0, 172) !important;
+}
