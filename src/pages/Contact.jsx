@@ -128,11 +128,11 @@ const Contact = () => {
             <div className="space-y-4">
               <div className="flex justify-between items-center border-b pb-2">
                 <span className="font-medium">Pazartesi - Cuma</span>
-                <span className="text-gray-600">09:00 - 18:00</span>
+                <span className="text-gray-600">09:00 - 18:30</span>
               </div>
               <div className="flex justify-between items-center border-b pb-2">
                 <span className="font-medium">Cumartesi</span>
-                <span className="text-gray-600">09:00 - 14:00</span>
+                <span className="text-gray-600">09:00 - 15:00</span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="font-medium">Pazar</span>
