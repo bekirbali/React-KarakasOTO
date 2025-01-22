@@ -1,5 +1,5 @@
 import { Navbar } from "flowbite-react";
-import logo from "../assets/logo.png";
+import logo from "../assets/carservice.jpg";
 import React, { useEffect, useRef, useState } from "react";
 import "../App.css";
 
@@ -34,7 +34,7 @@ export default function NavbarMenu() {
         <Navbar.Brand href="/">
           <img
             src={logo}
-            className="mr-3 h-6 sm:h-9"
+            className="mr-3 h-6 sm:h-9 text-white"
             alt="Flowbite React Logo"
           />
           <span
