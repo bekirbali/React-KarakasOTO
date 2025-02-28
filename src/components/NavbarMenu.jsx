@@ -22,7 +22,7 @@ const NavbarMenu = () => {
   return (
     <nav
       className={`fixed top-0 left-0 w-full z-[9999] transition-all duration-300 ${
-        scrolled ? "py-2 bg-[#F7CA18] shadow-md" : "py-4 bg-transparent"
+        scrolled ? "py-2 bg-primary-500 shadow-md" : "py-4 bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -113,7 +113,7 @@ const NavbarMenu = () => {
               href="https://www3.eryaz.net/publish/b2b/karakas/b2b.html"
               className={`px-4 py-2 ${
                 scrolled
-                  ? "border-2 border-white text-white hover:bg-white hover:text-[#F7CA18]"
+                  ? "border-2 border-secondary-500 text-white hover:bg-white hover:text-[#F7CA18]"
                   : "border-2 border-[#F7CA18] text-gray-800 hover:bg-[#F7CA18] hover:text-white"
               } rounded-md transition-colors duration-300`}
               target="_blank"
